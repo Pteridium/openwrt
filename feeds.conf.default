@@ -1,8 +1,8 @@
-src-svn packages svn://svn.openwrt.org/openwrt/packages
-src-svn xwrt http://x-wrt.googlecode.com/svn/trunk/package
-src-git luci git://nbd.name/luci.git
-src-git routing git://github.com/openwrt-routing/packages.git
-src-git telephony http://feeds.openwrt.nanl.de/openwrt/telephony.git
+src-git packages git://github.com/Noltari/openwrt-packages.git;r36508
+src-svn xwrt http://x-wrt.googlecode.com/svn/trunk/package@4987
+src-git luci git://github.com/Noltari/openwrt-luci.git;r9812
+src-git routing git://github.com/Noltari/openwrt-routing.git;b2ff4782d06d779c22e2b66f60afca3ece9261fe
+src-git telephony git://github.com/Noltari/openwrt-telephony.git;facfafb4c6dba388dd44ccf76bc5917cc77bbbf2
 #src-svn phone svn://svn.openwrt.org/openwrt/feeds/phone
 #src-svn efl svn://svn.openwrt.org/openwrt/feeds/efl
 #src-svn xorg svn://svn.openwrt.org/openwrt/feeds/xorg
