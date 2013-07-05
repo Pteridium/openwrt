@@ -61,6 +61,11 @@ brcm63xx_detect() {
 		status_led="CVG834G:green:power"
 		ifname=eth0
 		;;
+	96369R-1231N)
+		brcm63xx_has_reset_button="true"
+		status_led="WAP-5813n:green:power"
+		ifname=eth0
+		;;
 	GW6000)
 		brcm63xx_has_reset_button="true"
 		ifname=eth1
