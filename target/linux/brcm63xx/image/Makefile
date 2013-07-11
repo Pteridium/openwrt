@@ -184,6 +184,12 @@ define Image/Build
 	# Comtrend WAP-5813n
 	$(call Image/Build/CFE,$(1),96369R-1231N,6368,WAP-5813n,,--pad 4)
 
+	# Comtrend VR-3025un
+	$(call Image/Build/CFE,$(1),96368M-1341N,6368,VR-3025un,,--pad 4)
+
+	# Comtrend VR-3025u
+	$(call Image/Build/CFE,$(1),96368M-1541N,6368,VR-3025u,,--pad 4)
+
   ifeq ($(CONFIG_TARGET_brcm63xx_generic),y)
 	# BT Voyager V210_BTR
 	$(call Image/Build/CFE,$(1),V210_BB,6348,BTV210_BTR,,--layoutver 5)
