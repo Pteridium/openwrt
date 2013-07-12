@@ -178,6 +178,12 @@ define Image/Build
 	$(call Image/Build/CFE,$(1),96358VW2,6358,96358VW2-generic)
 	$(call Image/Build/CFE,$(1),96368MVNgr,6368,96368MVNgr-generic)
 	$(call Image/Build/CFE,$(1),96368MVWG,6368,96368MVWG-generic)
+	# Comtrend VR-3025un
+	$(call Image/Build/CFE,$(1),96368M-1341N,6368,VR-3025un,,--pad 4)
+
+	# Comtrend VR-3025u
+	$(call Image/Build/CFE,$(1),96368M-1541N,6368,VR-3025u,,--pad 16)
+
 
 	# BT Voyager V210_BTR
 	$(call Image/Build/CFE,$(1),V210_BB,6348,BTV210_BTR,,--layoutver 5)
