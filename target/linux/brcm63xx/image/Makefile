@@ -185,10 +185,10 @@ define Image/Build
 	$(call Image/Build/CFE,$(1),96369R-1231N,6368,WAP-5813n,,--pad 4)
 
 	# Comtrend VR-3025un
-	$(call Image/Build/CFE,$(1),96368M-1341N,6368,VR-3025un,,--pad 16)
+	$(call Image/Build/CFE,$(1),96368M-1341N,6368,VR-3025un,,--pad 4)
 
 	# Comtrend VR-3025u
-	$(call Image/Build/CFE,$(1),96368M-1541N,6368,VR-3025u,,--pad 4)
+	$(call Image/Build/CFE,$(1),96368M-1541N,6368,VR-3025u,,--pad 16)
 
   ifeq ($(CONFIG_TARGET_brcm63xx_generic),y)
 	# BT Voyager V210_BTR
