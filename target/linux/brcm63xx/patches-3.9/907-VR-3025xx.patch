@@ -1,6 +1,6 @@
-diff -urN a/linux-3.9.8/arch/mips/bcm63xx/boards/board_bcm963xx.c b/linux-3.9.8/arch/mips/bcm63xx/boards/board_bcm963xx.c
---- a/linux-3.9.8/arch/mips/bcm63xx/boards/board_bcm963xx.c	2013-07-12 18:33:23.000000000 +0200
-+++ b/linux-3.9.8/arch/mips/bcm63xx/boards/board_bcm963xx.c	2013-07-12 18:43:15.000000000 +0200
+diff -urN a/arch/mips/bcm63xx/boards/board_bcm963xx.c b/arch/mips/bcm63xx/boards/board_bcm963xx.c
+--- a/arch/mips/bcm63xx/boards/board_bcm963xx.c	2013-07-12 18:33:23.000000000 +0200
++++ b/arch/mips/bcm63xx/boards/board_bcm963xx.c	2013-07-13 11:17:21.000000000 +0200
 @@ -4126,6 +4126,158 @@
  	.spis = WAP5813n_spi_devices,
  	.num_spis = ARRAY_SIZE(WAP5813n_spi_devices),
