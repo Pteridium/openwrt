@@ -35,7 +35,7 @@ brcm63xx_detect() {
 		;;
 	96368M-1541N)
 		brcm63xx_has_reset_button="true"
-		status_led=="VR-3025u:green:power"
+		status_led="VR-3025u:green:power"
 		ifname=eth0
 		;;
 	RTA770BW)
