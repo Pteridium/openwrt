@@ -184,6 +184,9 @@ define Image/Build
 	# Comtrend WAP-5813n
 	$(call Image/Build/CFE,$(1),96369R-1231N,6368,WAP-5813n,,--pad 4)
 
+	# Huawei HG622
+	$(call Image/Build/CFE,$(1),96368MVWG_hg622,6368,HG622-generic,,--pad 4)
+
 	# Comtrend VR-3025un
 	$(call Image/Build/CFE,$(1),96368M-1341N,6368,VR-3025un,,--pad 4)
 
