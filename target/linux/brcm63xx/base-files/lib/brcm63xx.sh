@@ -57,7 +57,7 @@ brcm63xx_detect() {
 		brcm63xx_has_reset_button="true"
 		ifname=eth1
 		;;
-	HG622)
+	96368MVWG_hg622)
 		brcm63xx_has_reset_button="false"
 		status_led="HG622:green:power"
 		ifname=eth0
