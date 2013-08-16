@@ -11,7 +11,7 @@ diff -urN a/arch/mips/bcm63xx/boards/board_bcm963xx.c b/arch/mips/bcm63xx/boards
 +
 +	.has_uart0			= 1,
 +	.has_pci			= 1,
-+	.has_caldata		= 1,
++	.has_caldata			= 1,
 +	.caldata = {
 +		{
 +			.vendor			= PCI_VENDOR_ID_RALINK,
