@@ -11,11 +11,11 @@ diff -urN a/arch/mips/bcm63xx/boards/board_bcm963xx.c b/arch/mips/bcm63xx/boards
 +
 +	.has_uart0			= 1,
 +	.has_pci			= 1,
-+	.has_caldata		= 1,
++	.has_caldata			= 1,
 +	.caldata = {
 +		{
 +			.vendor			= PCI_VENDOR_ID_RALINK,
-+			.caldata_offset		= 0xee0000,
++			.caldata_offset		= 0xfa0000,
 +			.slot			= 1,
 +			.eeprom			= "rt2x00.eeprom",
 +		},
@@ -59,7 +59,7 @@ diff -urN a/arch/mips/bcm63xx/boards/board_bcm963xx.c b/arch/mips/bcm63xx/boards
 +		{
 +			.name		= "HG622:green:inet",
 +			.gpio		= 5,
-+   .active_low     = 0,
++   .active_low     = 1,
 +		},
 +		{
 +			.name		= "HG622:green:power",
@@ -76,12 +76,12 @@ diff -urN a/arch/mips/bcm63xx/boards/board_bcm963xx.c b/arch/mips/bcm63xx/boards
 +
 +	.buttons = {
 +                {
-+                        .desc           = "reset",
-+                        .gpio           = 34,
-+                        .type           = EV_KEY,
-+                        .code           = KEY_RESTART,
-+                        .debounce_interval = BCM963XX_KEYS_DEBOUNCE_INTERVAL,
-+                        .active_low     = 1,
++   .desc           = "reset",
++   .gpio           = 34,
++   .type           = EV_KEY,
++   .code           = KEY_RESTART,
++   .debounce_interval = BCM963XX_KEYS_DEBOUNCE_INTERVAL,
++   .active_low     = 1,
 +                },
 +        },
 +
